@@ -1,0 +1,192 @@
+/*Reseteo del Css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#cuerpo{
+    background: #fc00ff;
+   
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+   
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+
+}
+
+
+.titulosPrincipales{
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    color: darkblue;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.titulosSecundarios{
+font-family: cursive;
+font-size: x-large;
+color:gold;
+background-color: black;
+width: fit-content;
+margin-bottom: 15px;
+margin-top: 15px;
+border-style: double;
+border-radius: 3px;
+border-color: #fc00ff;
+}
+
+
+.fotoIntegrantes{
+    width: 45vh;
+    height: 40vh;
+    border-style:solid;
+    border-radius: 2px;
+    border-color: black;
+    border-radius: 30%;
+    box-shadow: 8px 8px 10px 0;
+    margin: 10px;
+}
+.numeros-celulares{
+    text-align: left;
+    font-size: x-large;
+    font-family: cursive;
+    color:maroon;
+    background-color: #fc00ff;
+    width: fit-content;
+}
+
+.mapa-google{
+    text-align: center;
+}
+
+.servicios-lista{
+    font-size: large;
+    font-family:'Times New Roman';
+    text-align: left;
+    color:red;
+    margin: 30px;
+
+}
+
+.fotos-servicios{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+  }
+
+.navegador{
+    background-color: black;
+    width: auto;
+    height: 30px;
+  }
+
+
+.navegador-ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+.navegador-li{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: medium;
+        font-family: Arial;
+        justify-content:flex-start;
+    }
+
+.info-integrantes{
+  font-size: larger;
+  font-family:cursive;
+  background-color: #fc00ff;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.nombreEmpresa{
+  font-family: Cambria;
+  text-align: center;
+  font-size: 60px;
+}
+
+.info-index{
+  font-family:cursive;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.subtitulos{
+  font-size: 28px;
+  font-family: cursive;
+  margin-top: 20px;
+}
+
+.fotos-index{
+  width: 30%;
+  height: 40%;
+  margin: 40px;
+
+}
+
+.integrantes-vinculos{
+  display: flex;
+  flex-direction: row;
+}
+
+.div-integrantes{
+  width: fit-content;
+  margin: 5px;
+}
+
+.boton-Fichas{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-family: 'Calibri';
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  font-family: Georgia;
+  margin-top: 10px;
+}
+
+.boton-Fichas :hover {
+  background-color: #00b712;
+  background-image: 
+  linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+  width:fit-content;
+  height: fit-content;
+}
+
+.boton-texto{
+ font-family: Cambria;
+ font-size: large;
+ color: white;
+}
